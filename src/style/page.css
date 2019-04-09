@@ -1,0 +1,97 @@
+html{
+		margin: 0 auto;
+		padding:0;
+	}
+	header{
+		width:100%;
+		height:80px;
+		line-height: 80px;
+		background: #fff;
+		border-bottom: 7px solid #c00;
+		font-size: 40px;
+		color:#a0583d;
+	}
+	header>p{
+		float: left;
+		padding-left: 30px
+	}
+	header>.nav{
+		float: left;
+		padding-left: 650px;
+		font-size: 20px;
+	}
+	header>.nav>ul>li{
+		float: left;
+		padding-left: 50px;
+		
+	}
+	header>.nav>ul>li>a{
+		color: #006134;
+		font-weight:500;
+		text-decoration: none;
+	}
+	header>.nav>ul>li>a:hover{
+		color:#c00;
+	}
+
+	.food{
+		width:1000px;
+		height:100%;
+		background:#f00;
+		margin:0 auto;
+
+	}
+	.food .picture{
+		float:left;
+	}
+	.food .picture img{
+		width:400px;
+		height:400px;
+		padding:20px 0;
+	}
+	.food .mainInfo{
+		width:550px;
+		height:400px;
+		margin:20px 20px 20px 20px;
+		padding-top: 20px;
+		background:#FFCC66;
+		float:left;
+		font-size: 25px;
+		font-weight: 500;
+	}
+	.food .mainInfo p{
+		display:block;
+		width:550px;
+		height:50px;
+		margin-left:50px;	
+	}
+	.food .mainInfo span{
+		float:right;
+		padding-right:130px;
+	}
+	.food .mainInfo #fInside{
+		width:550px;
+		height:110px;
+
+	}
+	.food .mainInfo #fInside span{
+		display:block;
+		float:none;
+		width:360px;
+		margin:0 auto;
+		padding-right:90px;
+	}
+	.fInfo{
+		float:left;
+		width:970px;
+		height:100%;
+		background: #d00;
+		margin-left: 260px;
+		font-size: 25px;
+		color:#ccc;
+	}
+	.fInfo span{
+		display:block;
+		color:#669999;
+		font-size: 30px;
+	}
